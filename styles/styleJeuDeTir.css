@@ -1,0 +1,45 @@
+.game-infos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    border: 1px solid #4e4646;
+    cursor:crosshair;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#target {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    transition: 0,25s;
+    animation: animeTarget 10s infinite;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: gold;
+    border: 0;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@keyframes animeTarget {
+    to {
+        transform: translateY(-200px) rotate(90deg);
+    }
+}
