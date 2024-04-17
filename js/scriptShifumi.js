@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 const containingChoiceComputer = document.getElementById('choice-computer')  ;
 const containingChoiceUser = document.getElementById('choice-user');
 const containingResult = document.getElementById('result');
@@ -51,3 +53,4 @@ function verification(){
     }
     containingResult.innerHTML = result + "Score : Ordinateur : " + pcpoint + " Joueur : " + userpoint;
 }
+});

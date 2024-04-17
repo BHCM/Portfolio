@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 //Génerer un nombre aléatoire à deviner
 const randomNumber = Math.floor(Math.random() * 100) +1;
 var guessChance = 3;
@@ -44,3 +46,5 @@ function chances(){
 
 //Ajouter un écouteur d'événements au bouton
 guessButton.addEventListener('click', checkGuess);
+
+});

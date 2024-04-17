@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center ;
+    padding: 20px;
+}
+
+
 .game-infos {
     display: flex;
     justify-content: space-evenly;
@@ -5,8 +12,8 @@
 }
 
 .container {
-    height: 400px;
-    width: 500px;
+    height: 500px;
+    width: 1350px;
     border: 1px solid #4e4646;
     cursor:crosshair;
     position: relative;
