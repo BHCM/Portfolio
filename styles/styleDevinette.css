@@ -1,9 +1,9 @@
-
 body {
     font-family: Arial, sans-serif;
     text-align: center ;
     padding: 20px;
 }
+
 
 input, button {
     display: inline-block;
@@ -14,15 +14,16 @@ input, button {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #2e8bcd;
+    background-color: #67d02e;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 
+
 #result {
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: bol;
 }
 .Accueil-boutton {
     display: inline-block;

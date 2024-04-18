@@ -16,17 +16,17 @@ body {
     width: 100px;
     height: 100px;
     margin: 10px;
-    background-color: rgb(16, 173, 30);
+    background-color: gold;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    color: rgb(16, 173, 30);
+    color: gold;
     cursor: pointer;
 }
 
 .flipped {
-    background-color: green;
+    background-color: red;
 }
 
 input, button {
@@ -42,4 +42,21 @@ input, button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+}
+.Accueil-boutton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #2e8bcd;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    /* Ajout des propriétés pour centrer le bouton horizontalement */
+    margin: 0 auto; /* Définit les marges haut et bas sur 0 et les marges gauche et droite automatiquement */
+    display: block; /* Permet de centrer le bouton */
 }
