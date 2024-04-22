@@ -1,9 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center ;
-    padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
+body {
+
+    font-family: "Inter", sans-serif;    
+}
+
+.slider{
+    width: 100%;
+    min-height: 80vh;
+    aspect-ratio: 16/9;
+    background: #000;
+    position: relative;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.slider-content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section {
+    padding: 100px 0;   
+}
+
+.boxed {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
 
 input, button {
     display: inline-block;
@@ -16,12 +76,8 @@ input, button {
     color: #fff;
     background-color: #2e8bcd;
     border: none;
-    border-radius: 15px;
+   border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 
 
-#result {
-    margin-top: 20px;
-    font-weight: bol;
-}
